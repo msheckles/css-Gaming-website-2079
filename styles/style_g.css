@@ -1,0 +1,376 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('Poppins-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url('Poppins-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('Poppins-Medium.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('Poppins-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url('Rubik-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url('Rubik-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url('Rubik-Regular.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url('Poppins-Thin.ttf');
+    font-weight: 300;
+}
+
+body {
+    background-color: #3B2A9F;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    color: #FFFFFF;
+    font-display: flex;
+}
+
+#logo {
+    position: relative;
+    width: 81.93px;
+    height: 45px;
+    left: 59.18px;
+    top: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 153.5%;
+}
+
+#gp {
+    position: relative;
+    width: 673.2px;
+    height: 41.34px;
+    top: 32px;
+}
+
+#nav1 div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 88px;
+    position: relative;
+    width: 805.41px;
+    height: 24.2px;
+    top: 25px;
+    left: 621px;
+}
+
+#nav1 a {
+    text-decoration: none;
+    position: relative;
+    bottom: 45px;
+}
+
+#home {
+    width: 50.6px;
+    height: 24.2px;
+    font-family: Poppins-base;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#games {
+    width: 70.63px;
+    height: 24.2px;
+    font-family: Poppins-base;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#about {
+    width: 74.85px;
+    height: 24.2px;
+    font-family: Poppins-base;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#news {
+    width: 45.33px;
+    height: 24.2px;
+    font-family: Poppins-base;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#theme {
+    position: relative;
+    width: 100px;
+    font-family: Poppins-base;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    order: 4;
+    flex-grow: 0;
+    display: block;
+}
+
+#rect {
+    position: relative;
+    left: 1195px;
+    background: #FA8305;
+    border-radius: 5px;
+    display: inline;
+    padding: 10px 100px 8px 5px;
+}
+
+#rect1 {
+    position: relative;
+    width: 30.97px;
+    height: 4px;
+    left: 80px;
+    top: 63px;
+    background-color: #FA8305;
+    border-radius: 20px;
+}
+
+#rect2 {
+    position: relative;
+    width: 5px;
+    height: 4px;
+    left: 85px;
+    top: 63px;
+    background: #FA8305;
+    border-radius: 20px;
+}
+
+main {
+    position: relative;
+    width: 1140px;
+}
+
+#gp1 {
+    display: flex;
+    height: 900px;
+}
+
+#gp2 {
+    position: relative;
+    width: 1440px;
+    left: 120px;
+    top: 124px;
+    height: 3704px;
+    background: #3B2A9F;
+}
+
+#gp3 {
+    display: flex;
+}
+
+#home1 {
+    position: relative;
+    width: 45px;
+    height: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 208.5%;
+    color: #FFFFFF;
+}
+
+#h {
+    position: relative;
+    width: 14px;
+    height: 25px;
+    /* left: 20px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 208.5%;
+    color: #FFFFFF;
+}
+
+#game {
+    position: relative;
+    width: 99px;
+    height: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 208.5%;
+    color: #FA8305;
+}
+
+#p1 {
+    position: relative;
+    width: 425px;
+    height: 162px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 180.5%;
+    color: #FFFFFF;
+}
+
+#p2 {
+    position: relative;
+    width: 380px;
+    height: 155px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 208.5%;
+    color: #FFFFFF;
+}
+
+#rect3 {
+    position: relative;
+    background: #FA8305;
+    border-radius: 40px;
+    display: inline;
+    padding: 20px 156px 8px 5px;
+}
+
+#p3 {
+    position: relative;
+    width: 100px;
+    height: 21px;
+    bottom: 47px;
+    left: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+/* #arrow {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    bottom: 58px;
+    transform: rotate(-180deg);
+} */
+
+#pic1 {
+    position: relative;
+    width: 2739px;
+    height: 656px;
+    left: 301px;
+    top: 121px;
+    background: url(pic2_1.png), #979797;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p4 {
+    position: relative;
+    width: 237px;
+    height: 45px;
+    left: 120px;
+    /* top: 921px; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 180.5%;
+    color: #FFFFFF;
+}
+
+#gp4 {
+    display: flex;
+}
+
+#gp5 {
+    position: relative;
+    width: 378px;
+    height: 348px;
+    top: 20px;
+    left: 110px;
+    background: #1C140F;
+    box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+#gp6 {
+    position: relative;
+    width: 378px;
+    height: 348px;
+    left: 161px;
+    top: 20px;
+    background: #1C140F;
+    border-radius: 20px;
+}
+
+#gp7 {
+    position: relative;
+    width: 378px;
+    height: 348px;
+    left: 210px;
+    top: 20px;
+    background: #1C140F;
+    border-radius: 20px;
+}
