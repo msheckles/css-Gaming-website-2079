@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style_f.css">
+    <link rel="stylesheet" href="styles\style_f.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Figma</title>
 </head>
 
@@ -33,10 +34,10 @@
         <div id="div1">
             <div id="gp2">
                 <p id="p1">Proved By Your Name</p>
-                <p id="p2">Work that we produce for our clients</p>
+                <h1 id="p2">Work that we produce for our clients</h1>
                 <p id="p3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                 <article id="rect3">
-                    <a id="a1">Get more details</a>
+                    <a href="" id="a1">Get more details</a>
                 </article>
 
 
@@ -48,9 +49,9 @@
         </div>
 
         <div>
-            <div id="p4">Currently Trending Games</div>
+            <p id="p4">Currently Trending Games</p>
             <article id="rect4">
-                <a id="a2">SEE ALL</a>
+                <a href="" id="a2">SEE ALL</a>
             </article>
             <div id="div2">
                 <div id="pic1"></div>
@@ -58,16 +59,17 @@
                 <div id="pic3"></div>
                 <div id="pic4"></div>
             </div>
-            </dic>
-            <div id="f">
-                <div id="f1">40 Followers</div>
-                <div id="f2">40 Followers</div>
-                <div id="f3">40 Followers</div>
-                <div id="f4">40 Followers</div>
             </div>
+            <div id="f">
+                <div > <p id="f1"><img src="styles\fire.png"> 40 Followers</p></div>
+                <div> <p id="f2"><img src="styles\fire.png"> 40 Followers</p></div>
+                <div><p id="f3"><img src="styles\fire.png"> 40 Followers</p></div>
+                <div><p id="f4"><img src="styles\fire.png"> 40 Followers</p></div>
+            </div>
+            
 
             <div id="div3">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p id="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
 
             <div id="gp3">
@@ -101,7 +103,7 @@
 
             <div id="div8">
                 <article id="rect5">
-                    <a id="a3">SEE ALL</a>
+                    <a href="" id="a3">SEE ALL</a>
                 </article>
             </div>
 
@@ -117,10 +119,16 @@
                         <p id="p12">Subscribe to receive the latest news and updates about TDA. We promise not to spam you!</p>
                     </div>
                     <div id="gp10">
-                        <p id="p13">Enter email address</p>
-                        <div id="rect6">
-                            <p id="continue">Continue</p>
-                        </div>
+                         
+
+                            <input id="input"  type="email" placeholder="Enter email address" name="input">
+                            <label id="label"  for="input"></label>
+                            <button id="button"  class="white regular" >continue</button>
+                           
+                    
+                    
+                    
+                          
                     </div>
                 </div>
             </div>
@@ -137,18 +145,47 @@
                 </div>
                 <div>
                     <p id="p37">About us</p>
-                    <p id="p18">Zeux <br> Portfolio <br> Careers <br> Contact us</p>
+
+                    <ul id="p38">
+                        <li><p>Zeux </p></li>
+                        <li><p> Portfolio </p></li>
+                        <li><p>Careers </p></li>
+                        <li><p>Contact us</p></li>
+
+
+
+                    </ul>
+                    <p ><br><br> <br> </p>
                 </div>
                 <div>
                     <p id="p39">Contact us</p>
                     <p id="p40">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <p id="p41">+908 89097 890</p>
                 </div>
+                <div>
+                <span class="fa-stack">
+
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack">
+    
+                    <i class="fa fa-instagram fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack">
+    
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack">
+    
+                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                </span>
             </div>
+            </div>
+            
 
             <div id="line"></div>
             <div>
-                <p id="p32">Copyright ® 2022 your name All rights Rcerved</p>
+                <p id="p42">Copyright ® 2022 <span id="span">your name</span> All rights Rcerved</p>
             </div>
         </div>
     </footer>
